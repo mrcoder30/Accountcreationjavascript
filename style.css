@@ -39,3 +39,14 @@ body{
     padding: 10px;
     border-radius: 2px solid black;
 }
+
+.form-control small{
+    position: relative;
+    margin: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: silver;
+}
