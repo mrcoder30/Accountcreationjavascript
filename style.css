@@ -1,4 +1,35 @@
-.body {
-    margin: 0px;
+*{
+    box-sizing: border-box
+}
+body{
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 400px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header {
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+}
+.form {
+    padding: 20px 40px;
+}
+
+.form-control {
+    margin-bottom: 10x;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form-control {
+    display: inline-block;
+    margin: 3px;
 }
